@@ -4,7 +4,10 @@ A handful of error templates to be used as a starting point for serving up 400, 
 
 ## Usage
 
-...
+1. [Download a zip file](https://github.com/phawk/simple-error-pages/archive/refs/heads/master.zip) of these pages and copy them across to your frameworks static folder, for Rails this is `./public`.
+2. Add your logo to your `./public` folder, let's assume it's called `logo.svg`.
+3. Update each of the html files, changing the img tags src attribute to `/logo.svg`.
+4. Enjoy ✌️
 
 ### Developing
 
@@ -13,6 +16,7 @@ Simply run a file server in this directory and open the files in your browser.
 ```
 $ gem install adsf
 $ adsf
+$ open localhost:3000/404.html
 ```
 
 ## License
